@@ -9,8 +9,8 @@ function calcular() {
 
     for (let c = 1; c <= 10; c++) {
       let item = document.createElement('option')
-      item.text = `${num} + ${c} = ${num * c}`
-      item.value = `${num} + ${c}`
+      item.text = `${num} x ${c} = ${num * c}`
+      item.value = `${num} x ${c}`
       myselectTabuada.appendChild(item)
     }
 
