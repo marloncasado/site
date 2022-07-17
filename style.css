@@ -1,0 +1,119 @@
+* {
+    margin: auto;
+    padding: 0px;
+}
+
+header {
+    height: 25%;
+    min-width: 100%;
+    background-color: rgb(169, 221, 236);
+    display: table;
+    table-layout: fixed;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    position: fixed;
+    text-align: left;
+}
+
+header.sticky {
+    height: 30px;
+    min-width: 100%;
+    display: table;
+    table-layout: fixed;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    position: fixed;
+}
+
+#icon {
+    max-height: 50px;  
+}
+#icon.sticky {
+    max-height: 30px;  
+}
+
+#divheader {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    align-items : center;
+    align-items : center;
+}
+
+#diviconnavbar {
+    width: 20%;
+    display: flex;
+}
+
+#divtitulonavbar {
+    width: 100%;
+    text-align: center;
+    font: normal 29px arial;
+    color: white;
+}
+
+#divmenu {
+    width: 20%;
+    text-align: center;
+}
+
+#menubutton {
+    width: 30px;
+    height: 30px;
+}
+
+/*fim do header*/
+
+footer {
+    height: 30px;
+    line-height: 30px;
+    background-color: rgb(169, 221, 236);
+    min-width: 99%;
+    bottom:0;
+    left: 0;
+    text-align: center;
+}
+
+/*fim do footer*/
+
+section { 
+    /*border: solid 1px rgba(3, 255, 3, 0.411);*/
+    max-width: 800px;
+    padding-top: 20%;
+}
+
+#divprincipal {
+    display: block;
+    border: solid 1px rgb(255, 0, 0);
+    max-width: 700px;
+    padding-top: 100px;
+}
+
+.divsection {
+    max-width: 700px;
+}
+
+h3 {
+     font: normal 30px Arial;
+     padding: 10px;
+}
+
+body {
+    font: normal 12px Arial;
+    text-align: center;
+    background-color: rgb(246, 255, 255);
+}
+
+#selectTabuada {
+    display: none;
+    min-width: 100px;
+    padding-inline: 10px;
+    margin-top: 10px;
+}
+
+.loremdiv {
+    padding-top: 200px;
+    padding-inline: 20px;
+    max-width: 600px;
+}
