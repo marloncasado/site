@@ -85,7 +85,7 @@ section {
 
 #divprincipal {
     display: block;
-    border: solid 1px rgb(255, 0, 0);
+    border: solid 1px rgb(172, 172, 172);
     max-width: 700px;
     padding-top: 100px;
 }
