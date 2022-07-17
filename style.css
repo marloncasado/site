@@ -81,7 +81,7 @@ section {
     /*border: solid 1px rgba(3, 255, 3, 0.411);*/
     max-width: 800px;
     padding-top: 250px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 #divprincipal {
@@ -114,7 +114,8 @@ body {
 }
 
 .loremdiv {
-    padding-top: 200px;
+    padding-top: 100px;
+    padding-bottom: 50px;
     padding-inline: 20px;
     max-width: 600px;
 }
