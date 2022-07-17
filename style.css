@@ -81,6 +81,7 @@ section {
     /*border: solid 1px rgba(3, 255, 3, 0.411);*/
     max-width: 800px;
     padding-top: 30%;
+    padding-bottom: 100px;
 }
 
 #divprincipal {
