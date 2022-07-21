@@ -38,7 +38,6 @@ header.sticky {
     height: 100%;
     padding: 0px;
     align-items : center;
-    align-items : center;
 }
 
 #diviconnavbar {
@@ -118,4 +117,8 @@ body {
     padding-bottom: 50px;
     padding-inline: 20px;
     max-width: 600px;
+}
+
+.letrastermo {
+    font-size: 30px;
 }
